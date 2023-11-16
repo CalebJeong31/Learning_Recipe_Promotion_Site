@@ -1,0 +1,73 @@
+.seventh-card {
+    background: hsla(231, 100%, 63%, 1);
+    background: linear-gradient(90deg, hsla(231, 100%, 63%, 1) 0%, hsla(241, 77%, 59%, 1) 33%, hsla(253, 68%, 48%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(231, 100%, 63%, 1) 0%, hsla(241, 77%, 59%, 1) 33%, hsla(253, 68%, 48%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(231, 100%, 63%, 1) 0%, hsla(241, 77%, 59%, 1) 33%, hsla(253, 68%, 48%, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.seventh-page-top {
+    width: 69.5rem;
+    height: 6.34rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dummy {
+    width: 12rem;
+}
+
+.seventh-page-main-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: hsla(231, 100%, 63%, 1);
+    color: linear-gradient(90deg, hsla(231, 100%, 63%, 1) 0%, hsla(241, 77%, 59%, 1) 33%, hsla(253, 68%, 48%, 1) 100%);
+    color: -moz-linear-gradient(90deg, hsla(231, 100%, 63%, 1) 0%, hsla(241, 77%, 59%, 1) 33%, hsla(253, 68%, 48%, 1) 100%);
+    color: -webkit-linear-gradient(90deg, hsla(231, 100%, 63%, 1) 0%, hsla(241, 77%, 59%, 1) 33%, hsla(253, 68%, 48%, 1) 100%);
+    background-color: white;
+    width: 16rem;
+    height: 2.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5rem;
+}
+
+.seventh-page-number-btns {
+    display: flex;
+}
+
+
+.seventh-page-number-btns button {
+    width: 2.4rem;
+    height: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 0.25rem solid white;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: white;
+    margin-left: 1rem;
+}
+
+.seventh-page-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image {
+    display: none;
+    width: 80%;
+}
+  .image.active {
+    display: block;
+  }

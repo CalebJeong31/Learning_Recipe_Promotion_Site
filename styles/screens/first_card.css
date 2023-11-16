@@ -1,0 +1,39 @@
+
+.first-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    background-image: url('/img/page1_bg.png');
+    background-repeat: no-repeat; /* 이미지를 반복하지 않음 */
+    background-size: cover; /* 이미지를 요소에 꽉 차게 표시 */
+}
+
+.overlay {
+    position: absolute; /* 부모 요소인 .card에 상대적인 위치 설정 */
+    top: 0; 
+    right: 0;
+    bottom: 0; 
+    left: 0; /* .card의 모든 모서리에 가상 요소를 맞춤 */
+    background-color: #4745E7; /* 원하는 색상 설정 */
+    opacity: 0.75; /* 투명도 설정 */
+}
+
+.text-container {
+    display: flex; /* Flexbox 레이아웃 시작 */
+    justify-content: center; /* 가로 방향 가운데 정렬 */
+    align-items: center; /* 세로 방향 가운데 정렬 */
+    color: white; /* 텍스트 색상을 흰색으로 설정 */
+    z-index: 2; /* overlay보다 상위에 위치하도록 설정 */
+    position: relative; /* z-index를 적용하기 위해 필요 */
+}
+
+.catchphrase_ko {
+    font-size: 3.1rem;
+    font-weight: 700;
+}
+.catchphrase_en {
+    font-size: 1.92rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}

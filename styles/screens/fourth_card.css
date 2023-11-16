@@ -1,0 +1,11 @@
+.fourth-card {
+    background-color: #F4F5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-card img {
+    width: 57.4rem;
+    height: 38.7rem;
+}
