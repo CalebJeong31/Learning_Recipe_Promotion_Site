@@ -1,25 +1,10 @@
 .sixth-card {
     background-color: #EAEAEA;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2.6rem;
 }
 
-.sixth-card-top {
-    display: flex;
-    gap: 1.7rem;
-}
-
-.job-box {
-    width: 17.2rem;
-    height: 17.1rem;
-    background-color: red;
-    border-radius: 10px;
-}
-
-.sixth-card-bottom {
-    font-size: 2.4rem;
-    font-weight: 800;
+.sixth_pic {
+    width: 85%;
 }

@@ -1,0 +1,61 @@
+.eight-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eight-card-text {
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-text-box {
+    width: 6rem;
+    height: 2.4rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4461FF;
+    color: white;
+    border-radius: 40rem;
+    margin-bottom: 5.4rem;
+}
+
+.vision-box {
+    width: 100%;
+    height: 14.3rem;
+    background: hsla(231, 100%, 63%, 1);
+    background: linear-gradient(90deg, hsla(231, 100%, 63%, 1) 0%, hsla(241, 77%, 59%, 1) 33%, hsla(253, 68%, 48%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(231, 100%, 63%, 1) 0%, hsla(241, 77%, 59%, 1) 33%, hsla(253, 68%, 48%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(231, 100%, 63%, 1) 0%, hsla(241, 77%, 59%, 1) 33%, hsla(253, 68%, 48%, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.1rem;
+    color: white;
+    font-weight: 800;
+}
+
+.info-box{
+    box-sizing: border-box;
+    padding: 1.8rem 3.5rem;
+    background-color: #ACADAD;
+    width: 100%;
+    height: 9.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.footer-gap {
+    margin-bottom: 0.3rem;
+}
