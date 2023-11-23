@@ -42,6 +42,20 @@
     font-weight: 800;
 }
 
+.test-btn2 {
+    width: 24.4rem;
+    height: 4.2rem;
+    font-size: 1.8rem;
+    font-weight: 900;
+    z-index: 2; /* overlay보다 상위에 위치하도록 설정 */
+    color: #4461FF;
+    background-color: white;
+    border: 0.22rem solid #4461FF;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3.1rem;
+    border-radius: 40px;
+}
+
 .info-box{
     box-sizing: border-box;
     padding: 1.8rem 3.5rem;

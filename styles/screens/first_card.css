@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
+    align-items: center;
+    gap: 0.5rem;
     background-image: url('/img/page1_bg.png');
     background-repeat: no-repeat; /* 이미지를 반복하지 않음 */
     background-size: cover; /* 이미지를 요소에 꽉 차게 표시 */
@@ -28,12 +29,30 @@
     position: relative; /* z-index를 적용하기 위해 필요 */
 }
 
+.btn_a {
+    z-index: 2; /* overlay보다 상위에 위치하도록 설정 */
+}
+
+.test-btn {
+    width: 24.4rem;
+    height: 4.2rem;
+    font-size: 1.8rem;
+    font-weight: 900;
+    z-index: 2; /* overlay보다 상위에 위치하도록 설정 */
+    color: #4461FF;
+    background-color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3.1rem;
+    border-radius: 40px;
+}
+
 .catchphrase_ko {
     font-size: 3.1rem;
     font-weight: 700;
 }
 .catchphrase_en {
-    font-size: 1.92rem;
+    font-size: 1.6rem;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
